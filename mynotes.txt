@@ -1,0 +1,6 @@
+MAINTENANCE STUFF
+
+sudo apt update
+sudo apt upgrade
+
+Get the Liquorix kernel

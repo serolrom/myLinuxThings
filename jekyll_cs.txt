@@ -1,0 +1,22 @@
+There's actually no need to install Jekyll!!!
+
+Find a theme to fork, like the example below.
+https://github.com/niklasbuschmann/contrast
+
+Name the repo as username.github.io
+In the <code> tab -> settings icon top right -> set the URL that looks like:
+https://username.github.io
+In the Settings->Pages menu entry, select the master brach, then save. 
+It takes a couple minutes to get the site published.
+
+clone the repo
+
+Adding content:
+In folder _posts maybe copy and adapt files
+
+
+
+
+
+
+

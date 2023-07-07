@@ -1,0 +1,36 @@
+Create a repo:
+
+Go to the folder where you store all your repos. 
+$ git init myrepo   -> This will create a folder named 'myrepo'
+You can also be in a folder with contens and type $ git init
+A hidden folder '.git' is created. When removint it, the folder is no longer a repo.
+So nothing is really stored elsewhere other than the folder where the contents are.
+
+Configuration of the git - NEEDED  for info on who is working on what
+$ git config --global user.name "name here"
+$ git config --global user.email "email here"
+
+Saving changes
+$ git status  -> tells you what's up. Chances are something is not tracked.
+$ git add -A  -> adds all the files to tracking
+$ git commit -m "message"  -> finalize the changes, comment with the message
+
+Retrieving previous versions
+$ git log --oneline    -> this gives a list of statuses, with a code
+$ git revert [code]
+
+Cloning
+Go to the parent folder where you want the repo to be created
+$ git clone [URL]
+
+Pushing
+The repo must exists beforehand
+Create a personal access token: Github profile (top right),
+'developer settings' from left menu, 'Personal access tokens', Generate new token,
+give it a name, grant access, finally go below and push generate token.
+$ git remote add origin [URL]  -> This adds the URL to the repo config file
+$ cat .git/config   -> we check here that the config points to the repo URL
+$ git push origin master   -> you are asked for username     xxxxxx@github.com
+
+
+
